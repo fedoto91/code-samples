@@ -1,0 +1,67 @@
+@font-face {
+    font-family: dense;
+    src: url("Dense-Regular.otf") format("opentype");
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav > .selected {
+    border-bottom: solid;
+    border-bottom-color: #121212;
+    border-bottom-width: 1px;
+}
+
+nav > a {
+    margin: 0 25px;
+}
+
+nav > a:hover {
+    text-decoration: none;
+}
+
+* {
+    font-family: dense, sans-serif;
+
+
+}
+
+nav {
+    font-size: 2.5rem;
+}
+
+nav > a {
+    transition: border-bottom 0.5s ease;
+    border-bottom: solid 1px transparent;
+}
+
+nav > a:hover {
+    border-bottom: solid 1px #000;
+}
+
+body {
+    background-color: rgb(241, 243, 246);
+}
+
+.container {
+    margin-top: 70px;
+    font-size: 5rem;
+}
+
+.roles {
+    font-size: 3rem;
+}
+
+p{
+    font-family: Helvetica, Arial, Geneva, sans-serif;
+}
+
+p > a{
+    font-size: 25px;
+}
+
+.projectHeaders{
+    text-align: center;
+    text-decoration: underline;
+}
